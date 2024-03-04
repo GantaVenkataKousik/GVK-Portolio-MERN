@@ -5,7 +5,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Admin from "./pages/Admin.jsx";
 import { Routes, Route } from "react-router-dom";
-import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -19,7 +18,6 @@ function App() {
         <Route path="/portfolio" element={<GVKPortfolio />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
-      <Analytics debug={false} />
     </>
 
   );

@@ -21,7 +21,7 @@ export default function GVKPortfolio() {
           theme: 'colored',
           style: {
                 fontWeight: 'bold',
-                fontSize: '2rem',
+              fontSize: '0.2rem',
             },
         })
 
